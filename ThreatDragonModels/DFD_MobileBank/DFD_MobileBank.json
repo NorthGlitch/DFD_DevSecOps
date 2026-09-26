@@ -4133,7 +4133,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Мобильный\nбанк"
+                "text": "P0\nМобильный\nбанк"
               },
               "body": {
                 "stroke": "#333333",
@@ -4229,7 +4229,7 @@
             "id": "859d992f-37a3-4aff-b35b-424c15ab8e69",
             "data": {
               "type": "tm.Process",
-              "name": "Мобильный\nбанк",
+              "name": "P0\nМобильный\nбанк",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -4253,7 +4253,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Клиент"
+                "text": "E1. Клиент"
               },
               "body": {
                 "stroke": "#333333",
@@ -4349,7 +4349,7 @@
             "id": "2ef5ef88-0efb-43a4-a028-2d4740e48485",
             "data": {
               "type": "tm.Actor",
-              "name": "Клиент",
+              "name": "E1. Клиент",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -4370,7 +4370,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Сотрудник\nбанка"
+                "text": " E2. Сотрудник\nбанка"
               },
               "body": {
                 "stroke": "#333333",
@@ -4466,7 +4466,7 @@
             "id": "676f6f65-7cf0-457a-bddf-c58b768e26a0",
             "data": {
               "type": "tm.Actor",
-              "name": "Сотрудник\nбанка",
+              "name": " E2. Сотрудник\nбанка",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -4478,16 +4478,16 @@
           },
           {
             "position": {
-              "x": 70,
+              "x": 40,
               "y": 410
             },
             "size": {
-              "width": 180,
+              "width": 210,
               "height": 60
             },
             "attrs": {
               "text": {
-                "text": "Платежный процессинг"
+                "text": "E6. Платежный процессинг"
               },
               "body": {
                 "stroke": "#333333",
@@ -4583,7 +4583,7 @@
             "id": "cf3978a7-176e-47b3-800f-e7908cd84fa5",
             "data": {
               "type": "tm.Actor",
-              "name": "Платежный процессинг",
+              "name": "E6. Платежный процессинг",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -4604,7 +4604,7 @@
             },
             "attrs": {
               "text": {
-                "text": "SMS-шлюз"
+                "text": "E4. SMS-шлюз"
               },
               "body": {
                 "stroke": "#333333",
@@ -4700,7 +4700,7 @@
             "id": "4e5bd3f0-5693-40b8-8dd1-cc5730c021c8",
             "data": {
               "type": "tm.Actor",
-              "name": "SMS-шлюз",
+              "name": "E4. SMS-шлюз",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -4721,7 +4721,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Push-сервер"
+                "text": "E5. Push-сервер"
               },
               "body": {
                 "stroke": "#333333",
@@ -4817,7 +4817,7 @@
             "id": "c01dccbe-d5c3-4cbf-a8ab-74c4d44fc4e0",
             "data": {
               "type": "tm.Actor",
-              "name": "Push-сервер",
+              "name": "E5. Push-сервер",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -4838,7 +4838,7 @@
             },
             "attrs": {
               "text": {
-                "text": "НСПК/СБП"
+                "text": "E3. НСПК/СБП"
               },
               "body": {
                 "stroke": "#333333",
@@ -4934,7 +4934,7 @@
             "id": "1f6bbab0-4dbe-440a-ae33-81bbb6742e50",
             "data": {
               "type": "tm.Actor",
-              "name": "НСПК/СБП",
+              "name": "E3. НСПК/СБП",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -5687,7 +5687,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Корпоративный SSO"
+                "text": "E7. Корпоративный SSO"
               },
               "body": {
                 "stroke": "#333333",
@@ -5697,6 +5697,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -5780,10 +5781,9 @@
               ]
             },
             "id": "a5ff5c01-bf1b-4695-a1e4-97ffca0f11e5",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
-              "name": "Корпоративный SSO",
+              "name": "E7. Корпоративный SSO",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
