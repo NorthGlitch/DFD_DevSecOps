@@ -4143,6 +4143,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -4226,7 +4227,6 @@
               ]
             },
             "id": "859d992f-37a3-4aff-b35b-424c15ab8e69",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Мобильный\nбанк",
@@ -4263,6 +4263,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -4346,7 +4347,6 @@
               ]
             },
             "id": "2ef5ef88-0efb-43a4-a028-2d4740e48485",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Клиент",
@@ -4380,6 +4380,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -4473,8 +4474,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 3
+            }
           },
           {
             "position": {
@@ -4497,6 +4497,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -4590,8 +4591,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 4
+            }
           },
           {
             "position": {
@@ -4614,6 +4614,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -4707,8 +4708,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 5
+            }
           },
           {
             "position": {
@@ -4731,6 +4731,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -4824,8 +4825,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 6
+            }
           },
           {
             "position": {
@@ -4848,6 +4848,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -4941,8 +4942,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 7
+            }
           },
           {
             "shape": "flow",
@@ -5095,8 +5095,8 @@
             },
             "vertices": [
               {
-                "x": 550,
-                "y": 430
+                "x": 540,
+                "y": 440
               }
             ]
           },
@@ -5147,7 +5147,7 @@
             },
             "vertices": [
               {
-                "x": 700,
+                "x": 710,
                 "y": 430
               }
             ]
@@ -5571,6 +5571,227 @@
                 "y": 90
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "SSO-запросы\nпроверка токена",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "SSO-запросы\nпроверка токена"
+            ],
+            "id": "3465014d-5381-4de4-894d-400b88807115",
+            "source": {
+              "cell": "859d992f-37a3-4aff-b35b-424c15ab8e69",
+              "port": "8b1e9396-e8c0-4dee-98a2-c0b0e44a80c1"
+            },
+            "target": {
+              "cell": "a5ff5c01-bf1b-4695-a1e4-97ffca0f11e5",
+              "port": "92f58fc5-1f1c-4412-98f6-2ee92de1d686"
+            },
+            "vertices": [
+              {
+                "x": 590,
+                "y": 470
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "токены,\nроли",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "токены,\nроли"
+            ],
+            "id": "62123c2f-3b87-41f8-9326-c70f9c96eaf4",
+            "source": {
+              "cell": "a5ff5c01-bf1b-4695-a1e4-97ffca0f11e5",
+              "port": "92f58fc5-1f1c-4412-98f6-2ee92de1d686"
+            },
+            "target": {
+              "cell": "859d992f-37a3-4aff-b35b-424c15ab8e69",
+              "port": "8b1e9396-e8c0-4dee-98a2-c0b0e44a80c1"
+            },
+            "vertices": [
+              {
+                "x": 670,
+                "y": 480
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 540,
+              "y": 600
+            },
+            "size": {
+              "width": 180,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Корпоративный SSO"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "92f58fc5-1f1c-4412-98f6-2ee92de1d686"
+                },
+                {
+                  "group": "right",
+                  "id": "675bb748-1c66-4b00-8a3b-f3c8ac01d60a"
+                },
+                {
+                  "group": "bottom",
+                  "id": "a8c94069-11a8-488b-b404-99ff1a26b065"
+                },
+                {
+                  "group": "left",
+                  "id": "fe2011ff-219e-429d-821a-329a368cbe9e"
+                }
+              ]
+            },
+            "id": "a5ff5c01-bf1b-4695-a1e4-97ffca0f11e5",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Корпоративный SSO",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
           }
         ]
       }
