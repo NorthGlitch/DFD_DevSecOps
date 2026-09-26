@@ -3778,6 +3778,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -3861,7 +3862,6 @@
               ]
             },
             "id": "ea6c83f7-1675-4558-99d2-ea0f7350d5ba",
-            "zIndex": 19,
             "data": {
               "type": "tm.Store",
               "name": "Transactions DB (PostgreSQL)",
@@ -3899,6 +3899,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 20,
             "ports": {
               "groups": {
                 "top": {
@@ -3992,8 +3993,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 20
+            }
           },
           {
             "position": {
@@ -4016,6 +4016,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 21,
             "ports": {
               "groups": {
                 "top": {
@@ -4099,7 +4100,6 @@
               ]
             },
             "id": "62105c44-bbc1-4495-a597-1999700dd4e0",
-            "zIndex": 21,
             "data": {
               "type": "tm.Actor",
               "name": "Корпоративный SSO / IdP",
