@@ -107,7 +107,7 @@
             },
             "attrs": {
               "label": {
-                "text": "E3. Trust Boundary"
+                "text": "Trust Boundary"
               }
             },
             "visible": true,
@@ -116,7 +116,7 @@
             "id": "9e2128d3-50fc-43c5-8c1e-399b45d904f4",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "E3. Trust Boundary",
+              "name": "Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -141,13 +141,6 @@
                 "ea6c83f7-1675-4558-99d2-ea0f7350d5ba",
                 "30f51de8-1cf7-4e75-a10a-e291ed4df580"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -161,7 +154,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Mobile app"
+                "text": "P1.\nMobile app"
               },
               "body": {
                 "stroke": "#333333",
@@ -257,7 +250,7 @@
             "id": "8bebf932-3ccc-4d4b-8be4-daeca393c5e1",
             "data": {
               "type": "tm.Process",
-              "name": "Mobile app",
+              "name": "P1.\nMobile app",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -281,7 +274,7 @@
             },
             "attrs": {
               "text": {
-                "text": "API Gateway"
+                "text": "P2.\nAPI Gateway"
               },
               "body": {
                 "stroke": "#333333",
@@ -377,7 +370,7 @@
             "id": "8cb553f7-705b-4e8b-8f62-628b4a2bb58f",
             "data": {
               "type": "tm.Process",
-              "name": "API Gateway",
+              "name": "P2.\nAPI Gateway",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -401,7 +394,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Transaction Engine"
+                "text": "P4.\nTransaction Engine"
               },
               "body": {
                 "stroke": "#333333",
@@ -497,7 +490,7 @@
             "id": "6f5bd37b-dd24-4509-9e8b-3614752a8140",
             "data": {
               "type": "tm.Process",
-              "name": "Transaction Engine",
+              "name": "P4.\nTransaction Engine",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -521,7 +514,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Product Service"
+                "text": "P5.\nProduct Service"
               },
               "body": {
                 "stroke": "#333333",
@@ -617,7 +610,7 @@
             "id": "e4d5fc0a-7d25-4e16-adae-b8f792ab7e99",
             "data": {
               "type": "tm.Process",
-              "name": "Product Service",
+              "name": "P5.\nProduct Service",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -641,7 +634,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Customer DB"
+                "text": "D3. Customer DB"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -740,7 +733,7 @@
             "id": "3c53eafb-c834-4e70-99e2-c3c48291933f",
             "data": {
               "type": "tm.Store",
-              "name": "Customer DB",
+              "name": "D3. Customer DB",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -765,7 +758,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Session Store (Redis) "
+                "text": "D1. Session Store (Redis) "
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -864,7 +857,7 @@
             "id": "dbba2769-ca8c-411e-8ba6-227372da03ce",
             "data": {
               "type": "tm.Store",
-              "name": "Session Store (Redis) ",
+              "name": "D1. Session Store (Redis) ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1132,7 +1125,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "ввод, команды",
+              "name": "F1.\nввод, команды",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1148,7 +1141,7 @@
               ]
             },
             "labels": [
-              "ввод, команды"
+              "F1.\nввод, команды"
             ],
             "id": "e164ad30-4428-4bac-a36c-d330b2bc8181",
             "source": {
@@ -1186,7 +1179,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "REST\\HTTPS, JWT, вход",
+              "name": "F3.\nREST\\HTTPS, JWT, вход",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1203,7 +1196,7 @@
               ]
             },
             "labels": [
-              "REST\\HTTPS, JWT, вход"
+              "F3.\nREST\\HTTPS, JWT, вход"
             ],
             "id": "b35da6d1-bca8-4956-9e94-5742abae9e0e",
             "source": {
@@ -1241,7 +1234,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "реквизиты, сумма",
+              "name": "F7.\nреквизиты, сумма",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1255,7 +1248,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "реквизиты, сумма"
+              "F7.\nреквизиты, сумма"
             ],
             "id": "27168914-98e7-41fb-a77b-48a33bfcdbdf",
             "source": {
@@ -1293,7 +1286,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "refresh-токены, попытки входа, блокировки",
+              "name": "F11.\nrefresh-токены, попытки входа, блокировки",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1307,7 +1300,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "refresh-токены, попытки входа, блокировки"
+              "F11.\nrefresh-токены, попытки входа, блокировки"
             ],
             "id": "73b399e6-6fc5-4605-bee2-b0a05325ff39",
             "source": {
@@ -1345,7 +1338,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "запрос данных клиента",
+              "name": "F23.\nзапрос данных клиента",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1359,7 +1352,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "запрос данных клиента"
+              "F23.\nзапрос данных клиента"
             ],
             "id": "f151e41e-6f8a-4fe7-8589-c6bfa8d4e5d3",
             "source": {
@@ -1397,7 +1390,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "заявки, блокировка",
+              "name": "F25.\nзаявки, блокировка",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1413,7 +1406,7 @@
               ]
             },
             "labels": [
-              "заявки, блокировка"
+              "F25.\nзаявки, блокировка"
             ],
             "id": "99ba2d32-4fc3-4d53-a140-cf14df1ad1dd",
             "source": {
@@ -1451,7 +1444,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "запросы сотрудника",
+              "name": "F27.\nзапросы сотрудника",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1465,7 +1458,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "запросы сотрудника"
+              "F27.\nзапросы сотрудника"
             ],
             "id": "4bab0523-3023-42b6-a82d-8848209daf9b",
             "source": {
@@ -1503,7 +1496,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "обработка заявок",
+              "name": "F30.\nобработка заявок",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1520,7 +1513,7 @@
               ]
             },
             "labels": [
-              "обработка заявок"
+              "F30.\nобработка заявок"
             ],
             "id": "bf5fc2fd-40f9-4715-bcfa-36e7e2044a2f",
             "source": {
@@ -1558,7 +1551,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "вход, 2FA,\nпроверка/обновление токена",
+              "name": "F5.\nвход, 2FA,\nпроверка/обновление токена",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1572,7 +1565,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "вход, 2FA,\nпроверка/обновление токена"
+              "F5.\nвход, 2FA,\nпроверка/обновление токена"
             ],
             "id": "b323e3d0-e27d-4db0-9e04-38e511a0d287",
             "source": {
@@ -1610,7 +1603,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "данные, результаты",
+              "name": "F2.\nданные, результаты",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1626,7 +1619,7 @@
               ]
             },
             "labels": [
-              "данные, результаты"
+              "F2.\nданные, результаты"
             ],
             "id": "0d1b1ca4-adcf-4c3f-abb2-389297d09c4c",
             "source": {
@@ -1664,7 +1657,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "ответы, токены",
+              "name": "F4.\nответы, токены",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1681,7 +1674,7 @@
               ]
             },
             "labels": [
-              "ответы, токены"
+              "F4.\nответы, токены"
             ],
             "id": "add4a680-ef54-4097-a399-03a39bcbd7bc",
             "source": {
@@ -1719,7 +1712,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "идентификатор, комиссия, статус",
+              "name": "F8.\nидентификатор, комиссия, статус",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1733,7 +1726,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "идентификатор, комиссия, статус"
+              "F8.\nидентификатор, комиссия, статус"
             ],
             "id": "9b3883a5-5fa8-4c55-a767-2716b28d7362",
             "source": {
@@ -1771,7 +1764,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "результат, токен",
+              "name": "F6.\nрезультат, токен",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1785,7 +1778,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "результат, токен"
+              "F6.\nрезультат, токен"
             ],
             "id": "dfffdcd4-007e-4651-832e-c4c7667ad20e",
             "source": {
@@ -1823,7 +1816,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "запрос продуктов, заявка",
+              "name": "F10.\nзапрос продуктов, заявка",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1837,7 +1830,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "запрос продуктов, заявка"
+              "F10.\nзапрос продуктов, заявка"
             ],
             "id": "650c5851-4085-4238-8853-69d2d5ea5b36",
             "source": {
@@ -1875,7 +1868,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "условия, статус заявки",
+              "name": "F9.\nусловия, статус заявки",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1889,7 +1882,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "условия, статус заявки"
+              "F9.\nусловия, статус заявки"
             ],
             "id": "b653049f-47d1-4fdb-be2e-90e23575d04e",
             "source": {
@@ -1927,7 +1920,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "данные, результат",
+              "name": "F26.\nданные, результат",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1943,7 +1936,7 @@
               ]
             },
             "labels": [
-              "данные, результат"
+              "F26.\nданные, результат"
             ],
             "id": "577bed20-d218-4551-9f1b-ea2e6593713e",
             "source": {
@@ -1981,7 +1974,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "F28.\nответы, токены",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1995,7 +1988,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "F28.\nответы, токены"
             ],
             "id": "0c0f58af-8ac6-4f83-a94f-5d4d826a17e7",
             "source": {
@@ -2033,7 +2026,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "результаты",
+              "name": "F29.\nрезультаты",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2050,7 +2043,7 @@
               ]
             },
             "labels": [
-              "результаты"
+              "F29.\nрезультаты"
             ],
             "id": "b4a7b552-9815-4320-8e51-ea48d838a718",
             "source": {
@@ -2088,7 +2081,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "профиль, телефон, карты ",
+              "name": "F24.\nпрофиль, телефон, карты ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2102,7 +2095,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "профиль, телефон, карты "
+              "F24.\nпрофиль, телефон, карты "
             ],
             "id": "1aba6a09-b7c9-47cf-9f85-8fa15d1c29a1",
             "source": {
@@ -2140,7 +2133,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "состояние сессии",
+              "name": "F12.\nсостояние сессии",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2154,7 +2147,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "состояние сессии"
+              "F12.\nсостояние сессии"
             ],
             "id": "74f25822-426f-44c5-bcea-29bd0cf872f0",
             "source": {
@@ -2192,7 +2185,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "номер телефона, OTP, уведомление",
+              "name": "F13.\nномер телефона, OTP, уведомление",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2206,7 +2199,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "номер телефона, OTP, уведомление"
+              "F13.\nномер телефона, OTP, уведомление"
             ],
             "id": "da4cdce2-2b96-4e3d-8c9b-64fad95683b1",
             "source": {
@@ -2244,7 +2237,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "статус доставки",
+              "name": "F14.\nстатус доставки",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2258,7 +2251,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "статус доставки"
+              "F14.\nстатус доставки"
             ],
             "id": "3c583307-9e59-43fb-8d38-88ac1c0c2181",
             "source": {
@@ -2296,7 +2289,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "адресат, push-подтверждение",
+              "name": "F16.\nадресат, push-подтверждение",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2310,7 +2303,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "адресат, push-подтверждение"
+              "F16.\nадресат, push-подтверждение"
             ],
             "id": "078fc5cb-6ef7-4636-a312-023e7e3ee53a",
             "source": {
@@ -2348,7 +2341,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "статус доставки",
+              "name": "F15.\nстатус доставки",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2362,7 +2355,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "статус доставки"
+              "F15.\nстатус доставки"
             ],
             "id": "fb61352d-934b-4cc0-bd6f-7dd578bf4ab9",
             "source": {
@@ -2400,7 +2393,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "результат, статус",
+              "name": "F18.\nрезультат, статус",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2414,7 +2407,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "результат, статус"
+              "F18.\nрезультат, статус"
             ],
             "id": "0f994dee-826e-4d64-818d-f7a7640d1ce1",
             "source": {
@@ -2452,7 +2445,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "платежное поручение, HTTPS/mTLS",
+              "name": "F17.\nплатежное поручение, HTTPS/mTLS",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2466,7 +2459,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "платежное поручение, HTTPS/mTLS"
+              "F17.\nплатежное поручение, HTTPS/mTLS"
             ],
             "id": "c3adf657-9ebc-4e7b-bb92-22b9ceac7dd4",
             "source": {
@@ -2504,7 +2497,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "транзакция, статус",
+              "name": "F22.\nтранзакция, статус",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2518,7 +2511,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "транзакция, статус"
+              "F22.\nтранзакция, статус"
             ],
             "id": "cda96f22-5cbc-45f6-b8b6-018a7d23c6e5",
             "source": {
@@ -2556,7 +2549,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "результат записи",
+              "name": "F21.\nрезультат записи",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2570,7 +2563,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "результат записи"
+              "F21.\nрезультат записи"
             ],
             "id": "574493e4-57a9-4c01-a4d0-8829b64a36e1",
             "source": {
@@ -2608,7 +2601,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "карточная операция",
+              "name": "F19.\nкарточная операция",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2622,7 +2615,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "карточная операция"
+              "F19.\nкарточная операция"
             ],
             "id": "00808ffd-7081-43e7-94be-cc0a31b156d7",
             "source": {
@@ -2660,7 +2653,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "результат обработки",
+              "name": "F20.\nрезультат обработки",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2674,7 +2667,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "результат обработки"
+              "F20.\nрезультат обработки"
             ],
             "id": "5afafd96-913d-499f-8315-4976ef9ecca3",
             "source": {
@@ -2751,11 +2744,11 @@
               },
               {
                 "x": -100,
-                "y": -450
+                "y": -430
               },
               {
                 "x": 0,
-                "y": -630
+                "y": -610
               }
             ]
           },
@@ -2854,7 +2847,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "результат входа,\nтокены, роли",
+              "name": "F32.\nрезультат входа,\nтокены, роли",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2870,7 +2863,7 @@
               ]
             },
             "labels": [
-              "результат входа,\nтокены, роли"
+              "F32.\nрезультат входа,\nтокены, роли"
             ],
             "id": "f3800cd6-e6c3-4069-a203-7f6fb0ee2a38",
             "source": {
@@ -2908,7 +2901,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "SSO-обмен",
+              "name": "F31.\nSSO-обмен",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2924,7 +2917,7 @@
               ]
             },
             "labels": [
-              "SSO-обмен"
+              "F31.\nSSO-обмен"
             ],
             "id": "de5c67ec-c98d-4c07-88c4-1550783cd079",
             "source": {
@@ -2962,7 +2955,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "проверка\nтокена",
+              "name": "F33.\nпроверка\nтокена",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2978,7 +2971,7 @@
               ]
             },
             "labels": [
-              "проверка\nтокена"
+              "F33.\nпроверка\nтокена"
             ],
             "id": "8be15204-c99a-452f-8ced-5df293cfdb49",
             "source": {
@@ -3016,7 +3009,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "статус,\nсторудник,\nроли",
+              "name": "F34.\nстатус,\nсторудник,\nроли",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3032,7 +3025,7 @@
               ]
             },
             "labels": [
-              "статус,\nсторудник,\nроли"
+              "F34.\nстатус,\nсторудник,\nроли"
             ],
             "id": "39abb136-545c-49f4-ac9c-9abe9bdb3fea",
             "source": {
@@ -3061,7 +3054,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Auth Service\n"
+                "text": "P3.\nAuth Service\n"
               },
               "body": {
                 "stroke": "#333333",
@@ -3157,7 +3150,7 @@
             "id": "fa87fdfc-ad85-44c3-987b-f83f036461cf",
             "data": {
               "type": "tm.Process",
-              "name": "Auth Service\n",
+              "name": "P3.\nAuth Service\n",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3181,7 +3174,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Внутренний \nAPI Gateway"
+                "text": "P7.\nВнутренний \nAPI Gateway"
               },
               "body": {
                 "stroke": "#333333",
@@ -3277,7 +3270,7 @@
             "id": "23f1b0f0-4202-4609-9013-cbf7fc8e6d0c",
             "data": {
               "type": "tm.Process",
-              "name": "Внутренний \nAPI Gateway",
+              "name": "P7.\nВнутренний \nAPI Gateway",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3301,7 +3294,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Внутренний \nпортал"
+                "text": "P6.\nВнутренний \nпортал"
               },
               "body": {
                 "stroke": "#333333",
@@ -3397,7 +3390,7 @@
             "id": "b2e68efe-5d98-464e-b5f6-534d87db2a04",
             "data": {
               "type": "tm.Process",
-              "name": "Внутренний \nпортал",
+              "name": "P6.\nВнутренний \nпортал",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3655,7 +3648,7 @@
             },
             "attrs": {
               "text": {
-                "text": "НСПК/СБП"
+                "text": "E3. НСПК/СБП"
               },
               "body": {
                 "stroke": "#333333",
@@ -3751,7 +3744,7 @@
             "id": "9c3a4a10-f6a2-42e0-bcae-d984f6c24ed1",
             "data": {
               "type": "tm.Actor",
-              "name": "НСПК/СБП",
+              "name": "E3. НСПК/СБП",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -3772,7 +3765,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Transactions DB (PostgreSQL)"
+                "text": "D2. Transactions DB (PostgreSQL)"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -3871,7 +3864,7 @@
             "id": "ea6c83f7-1675-4558-99d2-ea0f7350d5ba",
             "data": {
               "type": "tm.Store",
-              "name": "Transactions DB (PostgreSQL)",
+              "name": "D2. Transactions DB (PostgreSQL)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3896,7 +3889,7 @@
             },
             "attrs": {
               "text": {
-                "text": "НСПК/СБП"
+                "text": "E6. Платежный процессинг"
               },
               "body": {
                 "stroke": "#333333",
@@ -3992,7 +3985,7 @@
             "id": "30f51de8-1cf7-4e75-a10a-e291ed4df580",
             "data": {
               "type": "tm.Actor",
-              "name": "НСПК/СБП",
+              "name": "E6. Платежный процессинг",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -4013,7 +4006,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Корпоративный SSO / IdP"
+                "text": "E7. Корпоративный SSO / IdP"
               },
               "body": {
                 "stroke": "#333333",
@@ -4109,7 +4102,7 @@
             "id": "62105c44-bbc1-4495-a597-1999700dd4e0",
             "data": {
               "type": "tm.Actor",
-              "name": "Корпоративный SSO / IdP",
+              "name": "E7. Корпоративный SSO / IdP",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -5805,6 +5798,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "NorthGlitch",
-    "threatTop": 0
+    "threatTop": 3
   }
 }
