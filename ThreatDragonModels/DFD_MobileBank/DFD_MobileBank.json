@@ -107,7 +107,7 @@
             },
             "attrs": {
               "label": {
-                "text": "Trust Boundary"
+                "text": "E3. Trust Boundary"
               }
             },
             "visible": true,
@@ -116,7 +116,7 @@
             "id": "9e2128d3-50fc-43c5-8c1e-399b45d904f4",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
+              "name": "E3. Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -141,6 +141,13 @@
                 "ea6c83f7-1675-4558-99d2-ea0f7350d5ba",
                 "30f51de8-1cf7-4e75-a10a-e291ed4df580"
               ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -882,7 +889,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Клиент"
+                "text": "E1. Клиент"
               },
               "body": {
                 "stroke": "#333333",
@@ -978,7 +985,7 @@
             "id": "6b99da9d-4a36-4270-b031-3d6f8ca4d8a5",
             "data": {
               "type": "tm.Actor",
-              "name": "Клиент",
+              "name": "E1. Клиент",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -990,16 +997,16 @@
           },
           {
             "position": {
-              "x": -860,
+              "x": -880,
               "y": 375
             },
             "size": {
-              "width": 140,
+              "width": 160,
               "height": 70
             },
             "attrs": {
               "text": {
-                "text": "Сотрудник банка"
+                "text": "E2. Сотрудник банка"
               },
               "body": {
                 "stroke": "#333333",
@@ -1095,7 +1102,7 @@
             "id": "8b543559-5c25-4d66-be24-06c5d07ac70e",
             "data": {
               "type": "tm.Actor",
-              "name": "Сотрудник банка",
+              "name": "E2. Сотрудник банка",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -3414,7 +3421,7 @@
             },
             "attrs": {
               "text": {
-                "text": "SMS-шлюз"
+                "text": "E4. SMS-шлюз"
               },
               "body": {
                 "stroke": "#333333",
@@ -3510,7 +3517,7 @@
             "id": "9bb7a85d-8d4c-4795-a46b-5dad018a4984",
             "data": {
               "type": "tm.Actor",
-              "name": "SMS-шлюз",
+              "name": "E4. SMS-шлюз",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -3531,7 +3538,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Push-сервер"
+                "text": "E5. Push-сервер"
               },
               "body": {
                 "stroke": "#333333",
@@ -3627,7 +3634,7 @@
             "id": "1ceb68a4-223b-4088-8deb-0e24a676dd57",
             "data": {
               "type": "tm.Actor",
-              "name": "Push-сервер",
+              "name": "E5. Push-сервер",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
